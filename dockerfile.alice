@@ -1,0 +1,5 @@
+FROM centos:5
+
+RUN yum install -y net-tools, epel-release
+
+RUN yum install -y vsftpd, tcpdump

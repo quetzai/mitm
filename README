@@ -1,0 +1,15 @@
+Start from the repo.
+
+== start alice ==
+
+docker build  -f dockerfile.alice --tag="alice" .
+docker run -ti alice /bin/bash
+* start vsftpd *
+
+
+== start bob ==
+docker build -f dockerfile.bob --tag="bob" .
+
+== start oscar ==
+docker build -f dockerfile.oscar --tag="oscar" .
+
